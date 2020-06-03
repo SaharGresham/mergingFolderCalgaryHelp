@@ -1,0 +1,30 @@
+{
+  "name": "evolveu-user-generated-content",
+  "version": "1.0.0",
+  "description": "This is an empty readme file, but information about getting the app running for developement and deployment would normally be right here!",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "npm run test:server",
+    "start": "npm run start:server",
+    "install": "npm run install:server",
+    "install:server": "cd server && npm install && cd ..",
+    "test:server": "cd server && npm test && cd ..",
+    "start:server": "cd server && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ducklabs/evolveu-user-generated-content.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ducklabs/evolveu-user-generated-content/issues"
+  },
+  "homepage": "https://github.com/ducklabs/evolveu-user-generated-content#readme",
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  }
+}
