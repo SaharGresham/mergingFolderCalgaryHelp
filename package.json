@@ -1,16 +1,27 @@
 {
-  "name": "roux-academy",
+  "name": "calgary-helps",
   "version": "1.0.0",
-  "description": "Exercise files for my course Building a Website with Node.js and Express",
+  "description": "A website to help connect people to local resources!",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaharGresham/mergingFolderCalgaryHelp.git"
+  },
   "keywords": [],
-  "author": "Daniel Khan",
+  "author": "Sahar Gresham",
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "bugs": {
+    "url": "https://github.com/SaharGresham/mergingFolderCalgaryHelp/issues"
+  },
+  "engines": {
+    "node": "10.x",
+    "npm": "6.14.4"
   }
 }
