@@ -15,7 +15,7 @@
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "bugs": {
     "url": "https://github.com/SaharGresham/mergingFolderCalgaryHelp/issues"
